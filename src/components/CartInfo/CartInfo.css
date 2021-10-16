@@ -1,0 +1,35 @@
+.productInfo {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  img.cartSmallImage {
+    width: 500px !important;
+    height: 500px !important;
+  }
+  
+  div.largeImage {
+    box-shadow: none;
+    background-color: #fafafa;
+  }
+  
+  .cartProductName {
+    font-size: 1rem !important;
+  }
+  
+  .productGrid {
+    flex-grow: 1;
+  }
+
+  .cartDollars {
+      
+  }
+  
+  .cartDollars:before {
+    content: "$";
+  }
+  
+  .cartQuantity {
+    font-weight: bold !important;
+  }
+  
